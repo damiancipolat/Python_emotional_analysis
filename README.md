@@ -24,8 +24,19 @@ que sera usada luego para hacer predicciones, ej:https://github.com/Hrd2D/Sentim
 Los scripts consisten en 3 etapas:
 
 1) Cargar archivos JSON u CSV.
+```sh
+pip install -r requirements.txt
+```
+
 2) Generar modelos.
+```sh
+pip install -r requirements.txt
+```
+
 3) Procesar los modelos generados con datos de prueba.
+```sh
+pip install -r requirements.txt
+```
 
 ### Referencias:
 Uso como fuente de datos....
