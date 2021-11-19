@@ -17,9 +17,15 @@ Como fuente de datos obtengo una serie de archivos json y csv proveniente de div
 **JSON**: Gracias al trabajo de @ldubiau pude usar su lista de oraciones clasificadas,https://github.com/ldubiau/sentiment_classifier/tree/master/data2/output/pos en castellaño, estos datos provienen de reseñas dec
 comentarios en sitios de ecommerce, ej: Guia Oleo, despegar.com, mercadolibre, etc.
 
-```sh
-pip install -r requirements.txt
-```
+**CSV**: Gracias al trabajo de @Hrd2D podems obtener una lista de oraciones clasificad por emociones,
+que sera usada luego para hacer predicciones, ej:https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews/blob/master/main.ipynb
+
+### Comandos:
+Los scripts consisten en 3 etapas:
+
+1) Cargar archivos JSON u CSV.
+2) Generar modelos.
+3) Procesar los modelos generados con datos de prueba.
 
 ### Referencias:
 Uso como fuente de datos....
