@@ -14,18 +14,21 @@ El análisis de emoción forma parte del Procesamiento del Lenguaje Natural (PLN
 ### Dataset:
 Se usan diversos datasets para generar distintos modelos usando clasificadores bayesianos.
 
-**Playstore review**:
+**Playstore review - castellano**:
 Gracias al trabajo de @ldubiau pude usar su lista de oraciones clasificadas,https://github.com/ldubiau/sentiment_classifier/tree/master/data2/output/pos en castellaño, estos datos provienen de reseñas de comentarios del playstore de android, ej: Guia Oleo, despegar.com, mercadolibre, etc.
 
+**Playstore review - ingles**:
+Gracias al trabajo de @Hrd2D podems obtener una lista de oraciones clasificadas por emociones, que sera usada luego para hacer predicciones, ej:https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews
+
 **Tweets en ingles**:
-Gracias al trabajo de @Hrd2D podems obtener una lista de oraciones clasificadas por emociones, que sera usada luego para hacer predicciones, ej:https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews/blob/master/main.ipynb
+Gracias al trabajo de @xxx podems obtener una lista de oraciones clasificadas por emociones, que sera usada luego para hacer predicciones, ej:https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews/blob/master/main.ipynb
 
 ### Comandos:
 Podemos ejecutar los scripts para probar los diferentes modelos.
 
-1) Probar modelo basado en **reviews de playstore**:
+1) Probar modelo basado en **reviews de playstore - español**:
 ```sh
-$ cd app_reviews
+$ cd app_reviews_spanish
 #Genero un json unificado.
 $ python data_process.py
 #Genero el modelo.
@@ -34,13 +37,25 @@ $ python model_generator.py
 $ python test_model.py
 ```
 
-2) Generar modelos.
+2) Probar modelo basado en **tweets en idioma ingles**:
 ```sh
-python spanish_bayes_model_generate.py
-python spanish_english_model_generate.py
+$ cd tweets_english
+#Genero el modelo.
+$ python model_generator.py
+#Pruebo el modelo
+$ python test_model.py
 ```
 
-3) Ejecutar pruebas de los datos generados.
+3) Probar modelo basado en **reviews de playstore - ingles**:
+```sh
+$ cd app_reviews_english
+#Genero el modelo.
+$ python model_generator.py
+#Pruebo el modelo
+$ python test_model.py
+```
+
+4) Ejecutar pruebas de los datos generados.
 ```sh
 python test_spanish_model.py
 python test_english_model.py
