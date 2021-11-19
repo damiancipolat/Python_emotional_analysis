@@ -25,17 +25,20 @@ Los scripts consisten en 3 etapas:
 
 1) Cargar archivos JSON u CSV.
 ```sh
-pip install -r requirements.txt
+python spanish_json_data_dump.py
+#python spanish_english_model_generate.py
 ```
 
 2) Generar modelos.
 ```sh
-pip install -r requirements.txt
+python spanish_bayes_model_generate.py
+python spanish_english_model_generate.py
 ```
 
-3) Procesar los modelos generados con datos de prueba.
+3) Ejecutar pruebas de los datos generados.
 ```sh
-pip install -r requirements.txt
+python test_spanish_model.py
+python test_english_model.py
 ```
 
 ### Referencias:
