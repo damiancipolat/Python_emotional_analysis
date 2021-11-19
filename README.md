@@ -12,13 +12,13 @@ pip install -r requirements.txt
 El análisis de emoción forma parte del Procesamiento del Lenguaje Natural (PLN) y de la tarea llamada Sentiment Analysis o análisis del sentimiento, y consiste en ir un paso más allá del análisis de la opinión (positiva, negativa o neutra) que estemos analizando.
 
 ### Dataset:
-Como fuente de datos obtengo una serie de archivos json y csv proveniente de diversos lugares.
+Se usan diversos datasets para generar distintos modelos usando clasificadores bayesianos.
 
-**JSON**: Gracias al trabajo de @ldubiau pude usar su lista de oraciones clasificadas,https://github.com/ldubiau/sentiment_classifier/tree/master/data2/output/pos en castellaño, estos datos provienen de reseñas dec
-comentarios en sitios de ecommerce, ej: Guia Oleo, despegar.com, mercadolibre, etc.
+**Playstore review**:
+Gracias al trabajo de @ldubiau pude usar su lista de oraciones clasificadas,https://github.com/ldubiau/sentiment_classifier/tree/master/data2/output/pos en castellaño, estos datos provienen de reseñas de comentarios del playstore de android, ej: Guia Oleo, despegar.com, mercadolibre, etc.
 
-**CSV**: Gracias al trabajo de @Hrd2D podems obtener una lista de oraciones clasificad por emociones,
-que sera usada luego para hacer predicciones, ej:https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews/blob/master/main.ipynb
+**Tweets en ingles**:
+Gracias al trabajo de @Hrd2D podems obtener una lista de oraciones clasificadas por emociones, que sera usada luego para hacer predicciones, ej:https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews/blob/master/main.ipynb
 
 ### Comandos:
 Los scripts consisten en 3 etapas:
