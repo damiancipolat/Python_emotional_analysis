@@ -37,16 +37,7 @@ $ python model_generator.py
 $ python test_model.py
 ```
 
-2) Probar modelo basado en **tweets en idioma ingles**:
-```sh
-$ cd tweets_english
-#Genero el modelo.
-$ python model_generator.py
-#Pruebo el modelo
-$ python test_model.py
-```
-
-3) Probar modelo basado en **reviews de playstore - ingles**:
+2) Probar modelo basado en **reviews de playstore - ingles**:
 ```sh
 $ cd app_reviews_english
 #Genero el modelo.
@@ -55,14 +46,18 @@ $ python model_generator.py
 $ python test_model.py
 ```
 
-4) Ejecutar pruebas de los datos generados.
+3) Probar modelo basado en **tweets en idioma ingles**:
 ```sh
-python test_spanish_model.py
-python test_english_model.py
+$ cd tweets_english
+#Genero el modelo.
+$ python model_generator.py
+#Pruebo el modelo
+$ python test_model.py
 ```
 
+
 ### Referencias:
-Uso como fuente de datos....
+Use estos links como referencias para generar este repositorio.
 
 https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews/blob/master/main.ipynb
 https://www.analyticsvidhya.com/blog/2021/07/performing-sentiment-analysis-with-naive-bayes-classifier/
