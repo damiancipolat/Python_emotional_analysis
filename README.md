@@ -17,3 +17,17 @@ Uso como fuente de datos....
 ```sh
 pip install -r requirements.txt
 ```
+
+### Referencias:
+Uso como fuente de datos....
+
+https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews/blob/master/main.ipynb
+https://www.analyticsvidhya.com/blog/2021/07/performing-sentiment-analysis-with-naive-bayes-classifier/
+https://levelup.gitconnected.com/movie-review-sentiment-analysis-with-naive-bayes-machine-learning-from-scratch-part-v-7bb869391bab
+https://cnvrg.io/sentiment-analysis-python/
+https://github.com/ldubiau/sentiment_classifier<--
+https://42jaiio.sadio.org.ar/proceedings/simposios/Trabajos/ASAI/04.pdf <--
+https://github.com/taljuk01/political_sentiment_analysis
+https://github.com/manugarri/tweets_map
+https://www.kaggle.com/kazanova/sentiment140
+https://pybonacci.org/2015/11/24/como-hacer-analisis-de-sentimiento-en-espanol-2/
