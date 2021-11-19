@@ -17,7 +17,7 @@ Se usan diversos datasets para generar distintos modelos usando clasificadores b
 **Playstore review - castellano**:
 Gracias al trabajo de @ldubiau pude usar su lista de oraciones clasificadas,https://github.com/ldubiau/sentiment_classifier/tree/master/data2/output/pos en castellaño, estos datos provienen de reseñas de comentarios del playstore de android, ej: Guia Oleo, despegar.com, mercadolibre, etc.
 
-**Playstore review - ingles**:
+**Playstore review - ingles** TODO:
 Gracias al trabajo de @Hrd2D podems obtener una lista de oraciones clasificadas por emociones, que sera usada luego para hacer predicciones, ej:https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews
 
 **Tweets en ingles**:
