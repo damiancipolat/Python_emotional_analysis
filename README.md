@@ -21,12 +21,17 @@ Gracias al trabajo de @ldubiau pude usar su lista de oraciones clasificadas,http
 Gracias al trabajo de @Hrd2D podems obtener una lista de oraciones clasificadas por emociones, que sera usada luego para hacer predicciones, ej:https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews/blob/master/main.ipynb
 
 ### Comandos:
-Los scripts consisten en 3 etapas:
+Podemos ejecutar los scripts para probar los diferentes modelos.
 
-1) Cargar archivos JSON u CSV.
+1) Probar modelo basado en **reviews de playstore**:
 ```sh
-python spanish_json_data_dump.py
-#python spanish_english_model_generate.py
+$ cd app_reviews
+#Genero un json unificado.
+$ python data_process.py
+#Genero el modelo.
+$ python model_generator.py
+#Pruebo el modelo
+$ python test_model.py
 ```
 
 2) Generar modelos.
